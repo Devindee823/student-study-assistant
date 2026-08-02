@@ -1,3 +1,4 @@
 langchain-chroma
 langchain-huggingface
 transformers
+torch
