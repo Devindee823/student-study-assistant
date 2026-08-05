@@ -112,12 +112,29 @@ User
 
 ## Model Choice Comparison
 
-## Model Choice Comparison
 
-| Model | Purpose | Reason for Selection |
-|---|---|---|
-| Hugging Face Embedding Model | Converts study documents into vector representations for semantic search and retrieval. | Selected because it is efficient, lightweight, and suitable for retrieving relevant information from educational documents. |
-| Large Language Model (LLM) | Generates final answers by using the retrieved context from the RAG pipeline. | Selected because it can understand context and provide clear, human-like explanations for student queries. |
+1. Hugging Face Embedding Model
+
+Purpose:
+- Converts study documents into vector representations.
+- Enables semantic search and retrieval of relevant information from documents.
+
+Reason for Selection:
+- Lightweight and efficient.
+- Provides good retrieval performance for educational documents.
+- Suitable for the RAG pipeline with a large number of study materials.
+
+ 2. Large Language Model (LLM)
+
+Purpose:
+- Generates final answers using the retrieved context from the RAG pipeline.
+- Provides understandable explanations for student questions.
+
+Reason for Selection:
+- Capable of understanding context.
+- Produces human-like and meaningful responses.
+- Helps students learn concepts more effectively.
+
 ## Setup Instructions
 
 ### 1. Clone the repository
